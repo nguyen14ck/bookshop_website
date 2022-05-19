@@ -1,0 +1,80 @@
+﻿/*----BSWS
+Dùng từ bài 6 về sau  ----*/
+
+#mainContainer
+{
+   position: relative;
+   width:960px;
+   margin:3px auto;
+    top: 0px;
+    left: 0px;
+}
+.leftCol,.rightCol,.centerCol
+{
+    position: relative;
+    padding:2px;
+    margin: 0px;
+    /*border:1px solid #F1F1F1;*/
+    min-height: 440px;
+
+}
+.leftCol
+{
+    float:left;
+    width: 180px;
+}
+.centerCol
+{
+    float:left;
+    width:605px;
+    margin-left:2px;
+    }
+.rightCol
+{
+    float:right;
+    width:154px;
+    
+}
+/* 180, 780 (630-15=615,150)*/
+.title1
+{
+	font-weight:bold;
+	font-size:0.95em;
+	padding:5px 10px;
+	text-align:center;
+	
+}
+/*MENU
+------------------------------------------------------*/
+.menu
+{
+    background-color:#2D2D2D;/*#FFCC00; */
+    padding: 2px 0px;
+    width: 100%;
+    font-weight:300;
+    height:24px!important;
+    
+}
+.menu>*{margin-top:-20px;}
+
+/*CHỦ ĐỀ
+----------------------------------------------------------*/
+a.item_bg{text-decoration:none;padding:3px; }
+a.item_bg:link,a.item_bg:visited{border-bottom:dotted 1px #99FF33;display:block;}
+a.item_bg:hover,a.item_bg:active
+{
+    	background-image:url(../Images/bgLY.png);
+    	background-repeat:repeat-x;
+	}
+	
+/*IMAGE
+------------------------------------------------------*/
+.imgS img{height:70px!important;}
+.imgM img{height:90px!important;}
+ 
+ .box
+{
+    padding:1px;
+    margin-bottom:3px;
+    border:1px solid #04A917;
+}

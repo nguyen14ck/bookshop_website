@@ -1,0 +1,53 @@
+﻿@import url('MyAnimations.css');
+div
+{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    }
+
+.box
+{
+    padding:3px!important;
+    border-color:#F1F1F1!important;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -webkit-box-shadow: 0px 0px 3px 4px #F1F1F1 inset;
+     -moz-border-radius:3px;
+    -moz-box-shadow: 0px 0px 3px 4px #F1F1F1 inset;
+    }
+.centerCol{width:610px!important;}
+.rightCol
+{
+    
+    width:164px!important;
+    
+}
+.title1
+{
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	-moz-border-top-left-radius:6px;
+	-moz-border-top-right-radius:6px;
+	-webkit-border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	box-shadow: 0px 0px 2px 2px #F5F4EF inset;
+}
+
+
+#bllSachBC{margin-left:0px; padding-left:24px;}
+#bllSachBC li{border-bottom:dotted 1px #99FF33;}
+
+/*CHỦ ĐỀ
+------------------------------------------------------
+a.item_bg{text-decoration:none;padding:3px; }
+a.item_bg:link,a.item_bg:visited{border-bottom:dotted 1px #99FF33;display:block;}
+a.item_bg:hover,a.item_bg:active
+{
+    	background:#F5F4EF;
+		box-shadow: 0px 3px 5px #c0c0c0 inset;
+		-webkit-box-shadow: 0px 3px 5px #c0c0c0 inset;
+		-moz-box-shadow: 0px 3px 5px #c0c0c0 inset;
+		-o-box-shadow: 0px 3px 5px #c0c0c0 inset;
+		-ms-box-shadow: 0px 3px 5px #c0c0c0 inset;
+	}
+	----*/

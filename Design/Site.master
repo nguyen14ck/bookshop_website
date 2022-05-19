@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Design_Site" %>
+
+<%@ Register src="../UserControls/UC_ChuDe.ascx" tagname="UC_ChuDe" tagprefix="uc1" %>
+
+<%@ Register src="../UserControls/UC_GioHangTT.ascx" tagname="UC_GioHangTT" tagprefix="uc2" %>
+
+<%@ Register src="../UserControls/UC_Footer.ascx" tagname="UC_Footer" tagprefix="uc3" %>
+
+<%@ Register src="../UserControls/UC_QuangCao.ascx" tagname="UC_QuangCao" tagprefix="uc4" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ASP .NET</title>
+    <link href="../Images/Logo6.png" rel="shortcut icon" type="text/css" />
+    <link href="../Styles/Site.css" rel="stylesheet" type="text/css" />
+    <meta name="Description" content="ABC" />
+    <meta name="author" content="Hoc vien: Nguyen Phuoc Nguyen" />
+    <asp:ContentPlaceHolder id="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="menu"></div>
+    <%--<nav class="menu"></nav>--%>
+
+    <div id = "pageHeader">
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/ABCBook1.png" />
+    </div>
+   <%-- <header id = "pageHeader">
+    </header>--%>
+    <div id = "mainContainer">
+        <div class ="leftCol">
+            <uc1:UC_ChuDe ID="UC_ChuDe1" runat="server" />
+        </div>
+        <div class="centerCol">
+            <asp:ContentPlaceHolder id="CenterContent" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="rightCol">
+            <uc2:UC_GioHangTT ID="UC_GioHangTT1" runat="server" />
+            <br />
+            <br />
+            <uc4:UC_QuangCao ID="UC_QuangCao1" runat="server" />
+        </div>       
+    </div>
+    <div id = "pageFooter">
+        <uc3:UC_Footer ID="UC_Footer1" runat="server" />
+    </div>
+    
+    </form>
+<%--    <footer id = "pageFooter">
+    </footer>--%>
+</body>
+</html>

@@ -1,0 +1,3 @@
+"~/Pages/SachCT.aspx?Sid=" + Eval("SachID")
+
+?Sid=... &Sname=...

@@ -1,0 +1,85 @@
+﻿@import url(MainMenu2.css);
+@import url(NewInCss32.css);
+body   
+{
+    font-size: 0.875em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    padding: 0px;
+    color:Black; /*color: #696969;*/
+    margin:0px;
+
+}
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3
+{
+    color: #666666;
+    /*font-variant: small-caps;*/
+    font-weight: 900;
+    margin: 0px;
+    padding:4px 5px;
+    color:Black;
+}
+h1{font-size: 2.4em;/*color:#CC0000;*/}
+h2{font-size: 1.3em;}
+h3{font-size: 1.2em;}
+
+
+/*
+-----------------------------------------------------------*/
+a{text-decoration:none;}
+a:link, a:visited{color:Black; /* #034af3;#333333;*/}
+a:hover, a:active{color:Blue;cursor:hand;/* #1d60ff;*/}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+#pageHeader
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background:#F1F1F1;
+}
+#pageFooter
+{
+    
+    clear: both;
+   /* color: #4e5766;*/
+    padding: 8px 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: normal;
+       background:#F1F1F1;
+}
+
+p{margin:2px 0px;}
+.leftCol50P{float:left; width:50%;}
+
+
+/*ALIGN 
+------------------------------------------------------------*/
+.alignR{text-align:right!important;}
+.alignC{text-align:center!important;}
+.alignJ{text-align:justify!important;}
+.alignL{text-align:left!important;}
+
+/*BACKGROUND
+------------------------------------------------------------*/
+.bgRed,.bgDRed,.bgLGreen,.bgGreen,.bgDGreen,.bgBlue,.bgLY,.bgLGray
+{
+    color:#fff;
+    background-repeat:repeat-x;
+}
+.bgDRed{ background-image:url(../Images/bgDRed5x46.png); }
+.bgRed{  background-image:url(../Images/bgDRed2x32.png);}
+.bgLGreen{ background-image:url(../Images/bgLGreen4x50.png);color:Black;}
+.bgGreen{background-image:url(../Images/bgGreen2x32.png); color:Black;}
+.bgDGreen{background-image:url(../Images/bgDGreen2x32.png);}   
+.bgBlue{ background-image:url(../Images/bgBlue2x32.png);}
+.bgLY{background-image:url(../Images/bgLY.png); color:#000000;}
+.bgLGray{background-image:url(../Images/bgLGray3x30.jpg);color:Black;}
+
+  
+  /*#FFBC5E; #F1F1F1; */
+  

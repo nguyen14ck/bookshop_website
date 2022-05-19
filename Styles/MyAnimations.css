@@ -1,0 +1,285 @@
+﻿
+	.moveTB1 { 
+	  	  position:relative;
+		  z-index:1000;	
+		  animation:moveTopBottom 15s; 
+		  animation-direction:alternate;
+		  animation-iteration-count:infinite;	/*loop*/	
+		  
+		  -moz-animation:moveTopBottom 15s; /* Firefox */
+		  -moz-animation-direction:alternate;
+		  -moz-animation-iteration-count:infinite;	/*loop*/	
+			
+		  -webkit-animation:moveTopBottom 15s; /* Chrome+safari*/
+		  -webkit-animation-direction:alternate;
+		  -webkit-animation-iteration-count:infinite;	/*loop*/	
+			} 
+		.moveTB2 { 
+	  	  position:relative;
+		  z-index:1000;	
+		  animation:moveTopBottom 25s; 
+		  animation-direction:alternate;
+		  animation-iteration-count:infinite;	/*loop*/	
+		  
+		  -moz-animation:moveTopBottom 25s; /* Firefox */
+		  -moz-animation-direction:alternate;
+		  -moz-animation-iteration-count:infinite;	/*loop*/	
+			
+		  -webkit-animation:moveTopBottom 25s; /* Chrome+safari*/
+		  -webkit-animation-direction:alternate;
+		  -webkit-animation-iteration-count:infinite;	/*loop*/	
+			} 
+	.moveTB1:hover,.moveTB2:hover{
+		animation-play-state:paused;
+		-moz-animation-play-state:paused;
+		-webkit-animation-play-state:paused;
+	}
+	@keyframes moveTopBottom
+	{
+		from {left:0px; top:-420px;} 
+	    to {left:0px; top:0px;} 
+	}
+
+	@-webkit-keyframes moveTopBottom
+	{
+		from {left:0px; top:-420px;} 
+	    to {left:0px; top:0px;} 
+	}
+
+	@-moz-keyframes moveTopBottom
+	{
+		from {left:0px; top:-420px;} 
+	    to {left:0px; top:0px;} 
+	}
+	/* Sử dụng cho menu */
+	#ctl00_Menu1 a:hover{
+		animation:moveLRMN 0.1s; 
+		animation-direction:alternate;
+		animation-iteration-count:4;	
+		  
+		-moz-animation:moveLRMN 0.1s; /* Firefox */
+		-moz-animation-direction:alternate;
+		-moz-animation-iteration-count:4;	
+			
+		-webkit-animation:moveLRMN 0.1s; /* Chrome & safari */
+		-webkit-animation-direction:alternate;
+		-webkit-animation-iteration-count:4;
+	}
+	@keyframes moveLRMN
+	{
+		from {left:0px; top:0px;} 
+	    to {left:2px; top:0px;} 
+	}
+
+	@-webkit-keyframes moveLRMN
+	{
+		from {left:0px; top:0px;} 
+	    to {left:2px; top:0px;} 
+	}
+	@-moz-keyframes moveLRMN
+	{
+		from {left:0px; top:0px;} 
+	    to {left:2px; top:0px;} 
+	}
+	
+	
+	.moveLR { 
+	  	  position:relative;
+	  	  float:left;
+		  z-index:1001;	
+		  animation:moveLRS 15s; 
+		  animation-direction:alternate;
+		  animation-iteration-count:infinite;	/*loop*/	
+		  
+		  -moz-animation:moveLRS 15s; /* Firefox */
+		  -moz-animation-direction:alternate;
+		  -moz-animation-iteration-count:infinite;	/*loop*/	
+			
+		  -webkit-animation:moveLRS 15s; /* Chrome+safari*/
+		  -webkit-animation-direction:alternate;
+		  -webkit-animation-iteration-count:infinite;	/*loop*/	
+			} 
+	.moveLR:hover{
+		animation-play-state:paused;
+		-moz-animation-play-state:paused;
+		-webkit-animation-play-state:paused;
+	}
+	@keyframes moveLRS
+	{
+		from {left:-280px; top:0px;} 
+	    to {left:0px; top:0px;} 
+	}
+
+	@-webkit-keyframes moveLRS
+	{
+		from {left:-280px; top:0px;} 
+	    to {left:0px; top:0px;} 
+	}
+
+	@-moz-keyframes moveLRS
+	{
+		from {left:-280px; top:0px;} 
+	    to {left:0px; top:0px;} 
+	}
+	
+	/*Đổi màu */
+	.changeColor1
+	{
+		animation:ChangeColor1 5s; 
+		  animation-direction:alternate;
+		  animation-iteration-count:infinite;	
+		  -moz-animation:ChangeColor1 5s; 
+		  -moz-animation-direction:alternate;
+		  -moz-animation-iteration-count:infinite;	
+		-webkit-animation:ChangeColor1 5s; 
+		  -webkit-animation-direction:alternate;
+		  -webkit-animation-iteration-count:infinite;	
+	
+		  }
+	@keyframes ChangeColor1
+	{
+		0%   {color:#330000;}
+		25%  {color:#CC0000;}
+		50%  {color:#FF9999;}
+		75%  {color:#C2FF85;}
+		100% {color:#6BB224;}
+	}
+	@-moz-keyframes ChangeColor1
+	{
+		0%   {color:#330000;}
+		25%  {color:#CC0000;}
+		50%  {color:#FF9999;}
+		75%  {color:#C2FF85;}
+		100% {color:#6BB224;}
+	}
+	@-webkit-keyframes ChangeColor1
+	{
+		0%   {color:#330000;}
+		25%  {color:#CC0000;}
+		50%  {color:#FF9999;}
+		75%  {color:#C2FF85;}
+		100% {color:#6BB224;}
+	}
+	
+	.changeColor2
+	{
+		animation:ChangeColor2 1s; 
+		  animation-direction:alternate;
+		  animation-iteration-count:infinite;	
+		  -moz-animation:ChangeColor2 1s; 
+		  -moz-animation-direction:alternate;
+		  -moz-animation-iteration-count:infinite;	
+		-webkit-animation:ChangeColor2 1s; 
+		  -webkit-animation-direction:alternate;
+		  -webkit-animation-iteration-count:infinite;	
+	
+		  }
+	@keyframes ChangeColor2
+	{
+		0%   {color:red;}
+25%  {color:yellow}
+50%  {color:red;}
+75%  {color:yellow;}
+100% {color:red;}
+	}
+	@-moz-keyframes ChangeColor2
+	{
+		0%   {color:red;}
+25%  {color:yellow}
+50%  {color:red;}
+75%  {color:yellow;}
+100% {color:red;}
+	}
+	@-webkit-keyframes ChangeColor2
+	{
+		0%   {color:red;}
+25%  {color:yellow}
+50%  {color:red;}
+75%  {color:yellow;}
+100% {color:red;}
+	}
+	
+	
+.imgMZ{position:relative;}
+.imgMZ img
+{
+	position:absolute;
+    z-index:10000;
+    left:10px;
+    width:120px;
+	height:120px;
+	transition:all 2s;
+	-moz-transition:all 2s; /* Firefox 4 */ 
+	-webkit-transition:all 2s; /* Safari and Chrome */
+	-o-transition:all 2s; /* Opera */
+	}
+
+.imgMZ:hover img{
+		left:80px;
+		width:280px;
+		height:320px;
+		transform:rotate(360deg);
+		-moz-transform:rotate(360deg); /* Firefox 4 */
+		-webkit-transform:rotate(360deg); /* Safari and Chrome */
+		-o-transform:rotate(360deg); /* Opera */		
+
+	}
+
+
+.imgSkew{width:150px;height:200px;}
+.imgSkew img
+{
+	width:150px;
+	height:200px;
+
+	transition:all 2s;
+	-moz-transition:all 2s; /* Firefox 4 */ 
+	-webkit-transition:all 2s; /* Safari and Chrome */
+	-o-transition:all 2s; /* Opera */
+	}
+
+.imgSkew img:hover{
+	
+		width:100px;
+		height:120px;
+		
+	-ms-transform:skew(2deg,5deg); /* IE 9 */
+	-moz-transform:skew(2deg,5deg); /* Firefox */
+	-webkit-transform:skew(2deg,5deg); /* Safari and Chrome */
+	-o-transform:skew(2deg,5deg); /* Opera */
+	transform:skew(2deg,5deg);
+
+	}
+	
+	.boxR5
+{
+    background-color:White;
+	width:100%;
+	margin:0px;
+	padding:3px 3px 6px 3px;
+
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;  
+	-o-border-radius:5px; 
+	box-shadow: 0px 0px 3px 2px #888888;
+}
+ .newLogo
+ {
+ 	position:relative;
+ 	float:right;width:22px; height:75px;
+ 	margin-top:5px;
+ 	font-weight:bold;
+ 	text-align:center;
+ 	padding-top:10px;
+ 	
+ 	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;  
+	-o-border-radius:5px; 
+	
+	box-shadow: 0px 0px 3px 2px #888888;
+	background-color:Red;
+ 	}
+ 	
+ 	
